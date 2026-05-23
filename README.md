@@ -46,6 +46,14 @@ It should depend only on Android system libraries such as `libc.so`, `libm.so`, 
 
 If no Oodle library is present, Prism still builds and works for uncompressed/zlib-compatible paks, but Oodle-compressed entries cannot be decoded.
 
+### Oodle / Unreal EULA Notice
+
+Prism does not claim ownership of Oodle, Unreal Engine code, game assets, mapping files, AES keys, or any native build artifact derived from Epic Games, RAD Game Tools, or a third-party game project.
+
+If you provide an Oodle native library for local builds, you are responsible for making sure your use and distribution of that library complies with the Unreal Engine EULA, RAD/Epic licensing terms, and any applicable game or platform agreements. This repository is intended to make Prism easier to build and test; it is not a grant of rights to redistribute proprietary middleware or game content.
+
+If Epic Games, RAD Game Tools, or another rights holder believes any Prism documentation or build integration should be changed, please contact the project maintainer so the repository can be adjusted or the affected material can be removed.
+
 ## Build
 
 Install the .NET Android workload and Android SDK/NDK, then build:

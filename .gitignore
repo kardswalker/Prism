@@ -356,6 +356,7 @@ Mapping.usmap
 *.pak
 *.utoc
 *.ucas
+CUE4Parse/
 
 # Large or redistributability-sensitive local dependencies
 third_party/OodleUE-main/

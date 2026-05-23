@@ -5,7 +5,8 @@ libraries, and runtime dependencies are provided by third parties and remain
 under their respective licenses.
 
 - CUE4Parse (https://github.com/FabianFG/CUE4Parse) is licensed under the
-  Apache License 2.0. See CUE4Parse/LICENSE and CUE4Parse/NOTICE.
+  Apache License 2.0. See external/CUE4Parse/LICENSE and
+  external/CUE4Parse/NOTICE.
 - Android, .NET, SkiaSharp, ImageSharp, Oodle.NET, compression libraries, and
   other NuGet/runtime dependencies remain under their own upstream licenses.
   See their package metadata and bundled license files where applicable.

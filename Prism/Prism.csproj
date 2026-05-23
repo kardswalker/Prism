@@ -9,11 +9,8 @@
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <!--
-      Enables trim analyzers and full trimming during Release mode.
-      To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/trimming-options#trimming-granularity
-    -->
-    <TrimMode>full</TrimMode>
+    <!-- Full trimming can remove Android/WebView callbacks and parser code used dynamically. -->
+    <TrimMode Condition="'$(Configuration)' == 'Release'">partial</TrimMode>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\PakTool.Core\PakTool.Core.csproj" />

@@ -4,6 +4,7 @@ using Android.Content.PM;
 namespace Prism;
 
 [Activity(
+    Name = "com.ccbteam.prism.MainActivity",
     Label = "@string/app_name",
     MainLauncher = true,
     ConfigurationChanges =

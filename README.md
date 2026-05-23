@@ -54,6 +54,20 @@ If you provide an Oodle native library for local builds, you are responsible for
 
 If Epic Games, RAD Game Tools, or another rights holder believes any Prism documentation or build integration should be changed, please contact the project maintainer so the repository can be adjusted or the affected material can be removed.
 
+## Clone
+
+Prism uses CUE4Parse as a Git submodule. Clone with submodules enabled:
+
+```powershell
+git clone --recurse-submodules https://github.com/kardswalker/Prism.git
+```
+
+If you already cloned the repository without submodules, run:
+
+```powershell
+git submodule update --init --recursive
+```
+
 ## Build
 
 Install the .NET Android workload and Android SDK/NDK, then build:
@@ -80,7 +94,7 @@ Debug install example:
 - `Prism` - Android app and WebView UI.
 - `PakTool.Core` - Pak mounting, browsing, export, and texture preview logic.
 - `PakTool.Cli` - Desktop diagnostic harness for quick parser checks.
-- `CUE4Parse` - Unreal archive and asset parser dependency.
+- `external/CUE4Parse` - Unreal archive and asset parser dependency, referenced as a Git submodule.
 
 ## Notes
 
@@ -90,4 +104,4 @@ Use Prism only with archives and keys you are authorized to access. Prism does n
 
 Prism application code is released under the MIT License. See `LICENSE`.
 
-Bundled third-party source and dependencies keep their own licenses. In particular, CUE4Parse is licensed under Apache License 2.0; see `CUE4Parse/LICENSE`, `CUE4Parse/NOTICE`, and this repository's `NOTICE`.
+Bundled third-party source and dependencies keep their own licenses. In particular, CUE4Parse is licensed under Apache License 2.0; see `external/CUE4Parse/LICENSE`, `external/CUE4Parse/NOTICE`, and this repository's `NOTICE`.

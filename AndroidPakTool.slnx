@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/CUE4Parse/">
+    <Project Path="CUE4Parse/CUE4Parse-Conversion/CUE4Parse-Conversion.csproj" />
+    <Project Path="CUE4Parse/CUE4Parse/CUE4Parse.csproj" />
+  </Folder>
+  <Project Path="Prism/Prism.csproj" />
+  <Project Path="PakTool.Cli/PakTool.Cli.csproj" />
+  <Project Path="PakTool.Core/PakTool.Core.csproj" />
+</Solution>

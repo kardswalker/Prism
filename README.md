@@ -88,4 +88,6 @@ Use Prism only with archives and keys you are authorized to access. Prism does n
 
 ## License
 
-This project is based on FModel/CUE4Parse code and follows the repository license terms. See `LICENSE` and `NOTICE`.
+Prism application code is released under the MIT License. See `LICENSE`.
+
+Bundled third-party source and dependencies keep their own licenses. In particular, CUE4Parse is licensed under Apache License 2.0; see `CUE4Parse/LICENSE`, `CUE4Parse/NOTICE`, and this repository's `NOTICE`.
